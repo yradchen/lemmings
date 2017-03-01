@@ -1,0 +1,16 @@
+c.fillRect(100,150,200,200);
+c.fillRect(Distance from left(x cord), Distance from top(y cord), width, height)
+
+c.fillStyle = 'black'; - fill
+c.beginPath();
+c.moveTo(50,20);
+c.lineTo(200,50);
+c.lineTo(150,80);
+c.closePath();
+c.fill();
+c.strokeStyle = 'yellow'; - outline
+c.lineWidth = 5;
+c.stroke();
+
+
+Change direction (if the x axis is less than a given amount (in this case a wall) change the lemming direction by adding to it's x axis.)
