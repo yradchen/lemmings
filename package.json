@@ -1,0 +1,29 @@
+{
+  "name": "lemmings",
+  "version": "1.0.0",
+  "description": "",
+  "main": "webpack.config.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "dependencies": {
+    "webpack": "^2.2.1",
+    "webpack-dev-server": "^2.4.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    
+    "server": "webpack-dev-server --progress --colors"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yradchen/Lemmings.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yradchen/Lemmings/issues"
+  },
+  "homepage": "https://github.com/yradchen/Lemmings#readme"
+}
