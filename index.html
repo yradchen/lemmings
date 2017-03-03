@@ -1,13 +1,31 @@
 <html>
   <head>
     <title>Lemmings</title>
+    <link rel="stylesheet" href="./assets/overall.css" type="text/css"/>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <script src="http://code.createjs.com/easeljs-0.7.0.min.js"></script>
+    <script type="application/javascript" src="lib/bundle.js"></script>
   </head>
 
   <body>
-    <canvas id="canvas" width="480" height="320"></canvas>
-
-    <!-- <script type="application/javascript" src="vendor/keymaster.js"></script> -->
-    <script type="application/javascript" src="lib/bundle.js"></script>
+    <div id="game-container">
+      <header>
+        <section id="title">
+        <h6>Lemmings</h6>
+        </section>
+        <section id="buttons">
+          <p id="underscore">_</p>
+        <p id="box">◻</p>
+        <p id="x">×</p>
+        </section>
+      </header>
+      <section>
+        <canvas id="canvas" width="650" height="325"></canvas>
+        <div id="game-info">
+        </div>
+      </section>
+    </div>
+    
   </body>
+
 </html>
