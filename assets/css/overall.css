@@ -2,6 +2,8 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  background-image: url("../images/windows95.png");
+  background-size: cover;
 }
 
 #canvas {
@@ -100,5 +102,12 @@ h6 {
   border-bottom-color: #ffffff;
   color: #000000;
   font-size: 15px;
-
+}
+#bsod {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+}
+.hidden {
+  display: none;
 }
