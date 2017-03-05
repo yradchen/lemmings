@@ -1,3 +1,7 @@
+p {
+  width: inherit;
+  margin: 0;
+}
 body {
   display: flex;
   justify-content: center;
@@ -33,7 +37,7 @@ header {
 
 }
 
-p {
+header > p {
   margin: 0;
   margin-right: 2px;
   background-color: rgb(192, 192, 192);
@@ -73,4 +77,32 @@ p {
 
 h6 {
   font-weight: normal
+}
+
+#game-info {
+  background-color: #cecece;
+  width: 100%;
+  display: flex;
+  max-height: 20px;
+}
+
+#win-conditions {
+  /*width: 30%;*/
+  display: flex;
+  justify-content: center;
+}
+
+.info-bar {
+  margin: 2px 1px 0px 1px;
+  padding-left: 8px;
+  padding-right: 8px;
+  border-width: 1px;
+  border-style: solid;
+  border-left-color: #848484;
+  border-top-color: #848484;
+  border-right-color: #ffffff;
+  border-bottom-color: #ffffff;
+  color: #000000;
+  font-size: 15px;
+
 }
