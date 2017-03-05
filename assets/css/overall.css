@@ -85,15 +85,16 @@ h6 {
 }
 
 #win-conditions {
-  /*width: 30%;*/
+  padding-left: 40px;
+  padding-right: 40px;
   display: flex;
   justify-content: center;
 }
 
 .info-bar {
   margin: 2px 1px 0px 1px;
-  padding-left: 8px;
-  padding-right: 8px;
+  padding-left: 25px;
+  padding-right: 25px;
   border-width: 1px;
   border-style: solid;
   border-left-color: #848484;
@@ -110,4 +111,14 @@ h6 {
 }
 .hidden {
   display: none;
+}
+
+#instructions {
+  padding-left: 7px;
+  padding-right: 7px;
+}
+
+#goal {
+  padding-left: 7px;
+  padding-right: 8px;
 }
