@@ -79,22 +79,27 @@ h6 {
 
 #game-info {
   background-color: #cecece;
-  width: 100%;
+  min-width: 650px;
+  max-width: 650px;
   display: flex;
   max-height: 20px;
 }
 
 #win-conditions {
-  padding-left: 40px;
-  padding-right: 40px;
   display: flex;
   justify-content: center;
+  width: 200%;
+  /*padding: 0;*/
 }
 
+
 .info-bar {
+  display: flex;
+  justify-content: center;
+  width: 100%;
   margin: 2px 1px 0px 1px;
-  padding-left: 25px;
-  padding-right: 25px;
+  /*padding-left: 25px;*/
+  /*padding-right: 25px;*/
   border-width: 1px;
   border-style: solid;
   border-left-color: #848484;
@@ -113,12 +118,7 @@ h6 {
   display: none;
 }
 
-#instructions {
-  padding-left: 7px;
-  padding-right: 7px;
-}
 
 #goal {
-  padding-left: 7px;
-  padding-right: 8px;
+  width: 110%;
 }
