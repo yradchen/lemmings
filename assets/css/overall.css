@@ -2,7 +2,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-image: url("../images/windows95.png");
+  background-image: url("./images/windows95.png");
   background-size: cover;
 }
 
