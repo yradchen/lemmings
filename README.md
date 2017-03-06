@@ -2,7 +2,7 @@
 
 [Live version][live]
 
-[live]: yradchen.github.io/lemmings
+[live]: https://yradchen.github.io/lemmings/
 
 Lemmings is a game inspired by the 1991 classic of the same name.
 
