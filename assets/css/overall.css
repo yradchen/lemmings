@@ -113,12 +113,41 @@ h6 {
   position: absolute;
   height: 100%;
   width: 100%;
-}
-.hidden {
-  display: none;
+  z-index: 1000;
 }
 
 
 #goal {
   width: 110%;
+}
+
+.select-options {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  color: white;
+  width: 650px;
+  height: 325px;
+}
+
+#select-level {
+  font-weight: bolder;
+  font-size: 30px;
+  text-align: center;
+}
+
+#level-container {
+  border: 1px solid white;
+  display: flex;
+  flex-direction: column;
+}
+
+.levels {
+  /*width: 100%;*/
+  margin: 5px;
+  cursor: pointer;
+  font-size: 14px;
+}
+.hidden {
+  display: none;
 }
