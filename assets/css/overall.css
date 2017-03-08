@@ -1,9 +1,19 @@
 body {
   display: flex;
+  background-color: rgb(0, 128, 128);
+}
+
+#link-container {
+  display: flex;
+  flex-direction: column;
+  min-width: 100px;
+}
+
+#game-screen {
+  display: flex;
   justify-content: center;
   align-items: center;
-  background-image: url("../images/windows95.png");
-  background-size: cover;
+  width: 100%;
 }
 
 #canvas {
@@ -35,7 +45,7 @@ header {
 
 }
 
-p {
+#buttons > p {
   margin: 0;
   margin-right: 2px;
   background-color: rgb(192, 192, 192);
@@ -44,7 +54,6 @@ p {
   padding-left: 2px;
   padding-right: 2px;
   padding-bottom: 1px;
-  /*max-height: 10px;*/
   min-height: 10px;
   min-width: 10px;
   max-width: 10px;
@@ -128,6 +137,7 @@ h6 {
   color: white;
   width: 650px;
   height: 325px;
+  background: black;
 }
 
 #select-level {
@@ -150,4 +160,49 @@ h6 {
 }
 .hidden {
   display: none;
+}
+
+
+
+.links {
+  margin-top: 20px;
+}
+
+#portfolio {
+  width: 140px;
+  height: 100px;
+  margin-left: -30px;
+}
+
+#resume {
+  margin-left: 15px;
+  width: 40px;
+  height: 50px;
+}
+
+#email {
+  width: 100px;
+  height: 100px;
+  margin-left: -35px;
+}
+
+.portfolio-text {
+  font-family: sans-serif;
+  font-size: 15px;
+  color: white;
+  font-weight: normal;
+  margin: 0;
+  margin-top: -25px;
+}
+
+.resume-text {
+  font-family: sans-serif;
+  font-size: 15px;
+  color: white;
+  font-weight: normal;
+  margin: 5 0 0 8;
+}
+
+a {
+  text-decoration: none;
 }
