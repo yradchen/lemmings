@@ -4,7 +4,7 @@
 
 [live]: https://yradchen.github.io/lemmings/
 
-Lemmings is a game inspired by the 1991 classic of the same name.
+Lemmings is puzzle platformer video gamer inspired by the 1991 classic of the same name. The objective of the game is to is to get all the lemmings from a designated start point to the exit. The player does this by altering the landscape via the dig function. As a platformer-puzzler the game requires a bit of timing, patience, and strategy to complete
 
 
 #How To Play
