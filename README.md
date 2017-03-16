@@ -7,11 +7,11 @@
 Lemmings is puzzle platformer video gamer inspired by the 1991 classic of the same name. The objective of the game is to is to get all the lemmings from a designated start point to the exit. The player does this by altering the landscape via the dig function. As a platformer-puzzler the game requires a bit of timing, patience, and strategy to complete
 
 
-#How To Play
+# How To Play
 
 As a level starts lemmings start entering the stage via a spawn point. The lemmings walk around the stage automatically, turning as they hit walls or falling as they reach the end of platforms. The goal of the game is to get a percentage of the lemmings to the exit using only the dig function, accessed by clicking on a lemming.
 
-#Technologies
+# Technologies
 
 * JavaScript
 * HTML 5
@@ -20,7 +20,7 @@ As a level starts lemmings start entering the stage via a spawn point. The lemmi
 
 
 
-#Technology Implementation
+# Technology Implementation
 
 
 ## Sprites
@@ -42,7 +42,7 @@ Sprite animation is implemented using Easel JS, where each sprite is an image on
       [131, 0, 6, 10],
     ],
     animations:{
-      // set to run a continous loop. Listing each individual frame and having next: false here would only make the animation run once.
+      // set to run in a continuous loop. Listing each individual frame and having next: false here would only make the animation run once.
       walkRight: [0,7],
     },
   };
